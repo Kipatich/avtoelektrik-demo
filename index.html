@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ВОЛЬТ — выездной автоэлектрик в Москве и области</title>
+  <meta name="description" content="Выездной автоэлектрик: диагностика, ремонт стартера и генератора, поиск утечки тока, проводка и сигнализации. Приезжаю на место, называю цену до ремонта, даю гарантию.">
+  <meta name="theme-color" content="#07080a">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://kipatich.github.io/avtoelektrik-demo/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="ВОЛЬТ — выездной автоэлектрик">
+  <meta property="og:description" content="Приеду, найду причину и починю на месте. Диагностика без «поменяем всё подряд».">
+  <meta property="og:url" content="https://kipatich.github.io/avtoelektrik-demo/">
+  <meta property="og:image" content="https://kipatich.github.io/avtoelektrik-demo/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" href="assets/fonts/unbounded-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "ВОЛЬТ — выездной автоэлектрик",
+    "description": "Выездная диагностика и ремонт автомобильной электрики.",
+    "url": "https://kipatich.github.io/avtoelektrik-demo/",
+    "telephone": "+7-999-123-45-67",
+    "priceRange": "1500-15000 RUB",
+    "areaServed": "Москва и Московская область",
+    "openingHours": "Mo-Su 00:00-24:00"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <aside class="demo-strip" aria-label="Демонстрационный режим">
+    <div class="container demo-strip__inner">
+      <span class="demo-strip__badge">Демо</span>
+      <p>Пример сайта для презентации. Заявки не отправляются.</p>
+      <a href="#lead">Проверить форму <span aria-hidden="true">↗</span></a>
+    </div>
+  </aside>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="ВОЛЬТ — на главную">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M18.6 3 8.5 18.2h6.6L13.6 29l10.4-16.4h-6.7L18.6 3Z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand__text">
+          <strong data-brand>ВОЛЬТ</strong>
+          <small data-tagline>выездной автоэлектрик</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#symptoms" data-nav="symptoms">Симптомы</a>
+        <a href="#services" data-nav="services">Услуги</a>
+        <a href="#process" data-nav="process">Как работаю</a>
+        <a href="#prices" data-nav="prices">Цены</a>
+        <a href="#reviews" data-nav="reviews">Отзывы</a>
+        <a href="#faq" data-nav="faq">Вопросы</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header__phone" href="tel:+79991234567" data-phone-link>
+          <span>На связи 24/7</span>
+          <strong data-phone>+7 (999) 123-45-67</strong>
+        </a>
+        <a class="btn btn--primary btn--sm header__cta" href="#lead">Вызвать мастера</a>
+        <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Мобильная навигация">
+      <a href="#symptoms"><span>01</span>Симптомы</a>
+      <a href="#services"><span>02</span>Услуги</a>
+      <a href="#process"><span>03</span>Как работаю</a>
+      <a href="#prices"><span>04</span>Цены</a>
+      <a href="#reviews"><span>05</span>Отзывы</a>
+      <a href="#faq"><span>06</span>Вопросы</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a class="mobile-menu__phone" href="tel:+79991234567" data-phone-link>
+        <span>Позвонить сейчас</span>
+        <strong data-phone>+7 (999) 123-45-67</strong>
+      </a>
+      <a class="btn btn--primary" href="#lead">Оставить заявку</a>
+      <p data-hours>Круглосуточно, 7 дней в неделю</p>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__glow"></div>
+        <div class="hero__word">VOLT</div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <div class="status-pill reveal">
+            <span class="status-pill__dot"></span>
+            <span>На связи · выезд по <span data-city-short>Москве и области</span></span>
+          </div>
+
+          <h1 class="hero__title reveal" style="--delay:.06s">
+            Электрика<br>
+            не прощает<br>
+            <span class="hero__title-accent">догадок.</span>
+          </h1>
+
+          <p class="hero__lead reveal" style="--delay:.12s">
+            Приеду, найду причину и починю на месте. Без «поменяем всё подряд» —
+            с диагностикой, понятным объяснением и гарантией.
+          </p>
+
+          <div class="hero__actions reveal" style="--delay:.18s">
+            <a class="btn btn--primary btn--lg" href="#lead">
+              Вызвать электрика
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#services">Услуги и цены</a>
+          </div>
+
+          <ul class="hero__proof reveal" style="--delay:.24s">
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.7 5.5 8.2 14 4 9.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Диагностика до ремонта
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.7 5.5 8.2 14 4 9.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Цена до начала работ
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.7 5.5 8.2 14 4 9.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Гарантия 12 месяцев
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal" style="--delay:.16s">
+          <div class="diag" aria-hidden="true">
+            <div class="diag__bar">
+              <div class="diag__dots"><i></i><i></i><i></i></div>
+              <span class="diag__name">VOLT / DIAGNOSTIC</span>
+              <span class="diag__live"><i></i> LIVE</span>
+            </div>
+
+            <div class="diag__stage">
+              <div class="diag__stage-grid"></div>
+              <div class="diag__scan"></div>
+
+              <svg class="car-svg" viewBox="0 0 420 300" fill="none">
+                <g class="car-traces" stroke="#ffb224" stroke-width="1" opacity=".55">
+                  <path d="M74 72h38l20 20"/>
+                  <path d="M346 76h-38l-18 18"/>
+                  <path d="M76 232h42l20-18"/>
+                  <path d="M344 228h-42l-18-18"/>
+                  <path d="M60 112v30l18 12" stroke-dasharray="3 5"/>
+                  <path d="M360 112v30l-18 12" stroke-dasharray="3 5"/>
+                  <path d="M210 16v18" stroke-dasharray="3 5"/>
+                  <path d="M210 286v-16" stroke-dasharray="3 5"/>
+                </g>
+                <g class="car-nodes" fill="#ffb224">
+                  <circle cx="74" cy="72" r="3"/>
+                  <circle cx="346" cy="76" r="3"/>
+                  <circle cx="76" cy="232" r="3"/>
+                  <circle cx="344" cy="228" r="3"/>
+                  <circle cx="60" cy="112" r="2.5"/>
+                  <circle cx="360" cy="112" r="2.5"/>
+                </g>
+                <g fill="#77828e" font-family="monospace" font-size="8" letter-spacing=".8">
+                  <text x="44" y="64">ECU</text>
+                  <text x="352" y="66">CAN-H</text>
+                  <text x="43" y="248">GND</text>
+                  <text x="350" y="244">12V</text>
+                </g>
+
+                <g class="wheels" fill="#0a0c0f" stroke="#333c46" stroke-width="1.5">
+                  <rect x="141" y="82" width="17" height="46" rx="8"/>
+                  <rect x="262" y="82" width="17" height="46" rx="8"/>
+                  <rect x="141" y="182" width="17" height="46" rx="8"/>
+                  <rect x="262" y="182" width="17" height="46" rx="8"/>
+                </g>
+
+                <path class="car-body" d="M210 27c27 0 41 17 45 41l10 43c4 16 4 60 0 77l-10 45c-4 24-18 39-40 39h-10c-22 0-36-15-40-39l-10-45c-4-17-4-61 0-77l10-43c4-24 18-41 45-41Z" fill="#10151a" stroke="#3a4651" stroke-width="1.6"/>
+                <path d="M180 83c8-9 52-9 60 0l5 30h-70l5-30Z" fill="#0a0d10" stroke="#3b4854" stroke-width="1.2"/>
+                <path d="M177 195c9-8 57-8 66 0l-4 35c-1 8-7 12-15 12h-28c-8 0-14-4-15-12l-4-35Z" fill="#0a0d10" stroke="#3b4854" stroke-width="1.2"/>
+                <path d="M179 121h62v67h-62z" fill="#0e1318" stroke="#2d3741" stroke-width="1"/>
+                <path d="M186 130h48M186 138h48" stroke="#202b34" stroke-width="1"/>
+                <g class="ecu-chip">
+                  <rect x="196" y="148" width="28" height="24" rx="5" fill="#0a0d10" stroke="#ffb224" stroke-opacity=".65"/>
+                  <path d="M202 154h16M202 159h16M202 164h10" stroke="#ffb224" stroke-opacity=".8" stroke-width="1.2"/>
+                  <circle cx="210" cy="178" r="2.5" fill="#ffb224"/>
+                </g>
+                <g stroke="#ffb224" stroke-width="1.4" stroke-linecap="round" opacity=".85">
+                  <path d="M180 46h12M228 46h12"/>
+                  <path d="M183 257h10M227 257h10"/>
+                </g>
+                <g class="hotspot">
+                  <circle cx="210" cy="178" r="17" stroke="#ffb224" stroke-opacity=".18"/>
+                  <circle cx="210" cy="178" r="17" stroke="#ffb224" stroke-opacity=".55">
+                    <animate attributeName="r" values="10;24" dur="2.8s" repeatCount="indefinite"/>
+                    <animate attributeName="stroke-opacity" values=".65;0" dur="2.8s" repeatCount="indefinite"/>
+                  </circle>
+                  <circle cx="210" cy="178" r="3" fill="#ffb224"/>
+                </g>
+                <g class="hotspot">
+                  <circle cx="267" cy="208" r="14" stroke="#ff5c5c" stroke-opacity=".16"/>
+                  <circle cx="267" cy="208" r="14" stroke="#ff5c5c" stroke-opacity=".55">
+                    <animate attributeName="r" values="7;19" dur="2.4s" begin=".7s" repeatCount="indefinite"/>
+                    <animate attributeName="stroke-opacity" values=".6;0" dur="2.4s" begin=".7s" repeatCount="indefinite"/>
+                  </circle>
+                  <circle cx="267" cy="208" r="2.6" fill="#ff5c5c"/>
+                </g>
+              </svg>
+
+              <div class="float float--volt">
+                <span>АКБ</span>
+                <strong>12.6<small>В</small></strong>
+                <div class="meter"><i></i></div>
+              </div>
+
+              <div class="float float--fault">
+                <span class="fault-dot"></span>
+                <div><b>P0562</b><small>низкое напряжение</small></div>
+              </div>
+
+              <div class="float float--ok">
+                <span class="ok-icon">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="m3.5 8 3 3 6-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <div><b>Масса найдена</b><small>0.2 Ом · норма</small></div>
+              </div>
+            </div>
+
+            <div class="diag__foot">
+              <div class="wave">
+                <svg viewBox="0 0 420 42" preserveAspectRatio="none">
+                  <path d="M0 21h28l8-8 8 16 9-8h36l7-10 9 20 8-10h40l8-6 8 13 9-7h36l7-11 9 21 8-10h40l8-6 8 12 9-6h36l8-9 8 17 9-8h38" stroke="#5eead4" stroke-width="1.5" fill="none" opacity=".8"/>
+                </svg>
+              </div>
+              <div class="diag__readouts">
+                <span>CAN <b>500 kbps</b></span>
+                <span>ЗАРЯД <b>14.2 В</b></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__note" aria-hidden="true">
+            <span class="hero__note-icon">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M10 2.8 3.5 5v4.6c0 3.8 2.7 6.4 6.5 7.6 3.8-1.2 6.5-3.8 6.5-7.6V5L10 2.8Z" stroke="currentColor" stroke-width="1.4"/><path d="m7.2 9.8 2 2 3.7-3.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span>Нашёл причину — <b>покажу и объясню</b></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Стартер</span><i></i><span>Генератор</span><i></i><span>Проводка</span><i></i><span>Утечка тока</span><i></i><span>Сигнализация</span><i></i><span>Диагностика</span><i></i>
+        <span>Стартер</span><i></i><span>Генератор</span><i></i><span>Проводка</span><i></i><span>Утечка тока</span><i></i><span>Сигнализация</span><i></i><span>Диагностика</span><i></i>
+      </div>
+    </div>
+
+    <!-- SYMPTOMS -->
+    <section class="section section--paper symptoms" id="symptoms">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <span class="eyebrow"><i></i>С чем приезжаю</span>
+            <h2>Сначала симптом.<br>Потом — причина.</h2>
+          </div>
+          <p class="section-head__aside">Выберите, что происходит с машиной. Покажу, как обычно выглядит диагностика и сколько это занимает.</p>
+        </div>
+
+        <div class="symptoms__layout">
+          <div class="symptom-tabs" role="tablist" aria-label="Симптомы неисправности">
+            <button class="symptom-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="symptomPanel" data-symptom="no-start">
+              <span class="symptom-tab__num">01</span>
+              <span class="symptom-tab__label">Не заводится</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button class="symptom-tab" type="button" role="tab" aria-selected="false" aria-controls="symptomPanel" data-symptom="check-engine">
+              <span class="symptom-tab__num">02</span>
+              <span class="symptom-tab__label">Горит Check Engine</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button class="symptom-tab" type="button" role="tab" aria-selected="false" aria-controls="symptomPanel" data-symptom="battery">
+              <span class="symptom-tab__num">03</span>
+              <span class="symptom-tab__label">Садится аккумулятор</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button class="symptom-tab" type="button" role="tab" aria-selected="false" aria-controls="symptomPanel" data-symptom="lights">
+              <span class="symptom-tab__num">04</span>
+              <span class="symptom-tab__label">Не работает свет</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button class="symptom-tab" type="button" role="tab" aria-selected="false" aria-controls="symptomPanel" data-symptom="alarm">
+              <span class="symptom-tab__num">05</span>
+              <span class="symptom-tab__label">Глючит сигнализация</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button class="symptom-tab" type="button" role="tab" aria-selected="false" aria-controls="symptomPanel" data-symptom="wiring">
+              <span class="symptom-tab__num">06</span>
+              <span class="symptom-tab__label">Пахнет проводкой</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+
+          <div class="symptom-card" id="symptomPanel" role="tabpanel" aria-live="polite">
+            <div class="symptom-card__top">
+              <span class="tag tag--amber">Частый случай</span>
+              <span class="symptom-card__code" id="symptomCode">DIAG / 01</span>
+            </div>
+            <h3 id="symptomTitle">Не заводится</h3>
+            <p class="symptom-card__desc" id="symptomDesc">Стартер молчит или крутит, но двигатель не схватывает. Причина может быть в питании, стартере, массе или иммобилайзере.</p>
+
+            <div class="symptom-card__grid">
+              <div>
+                <span class="mini-label">Вероятные причины</span>
+                <ul class="tag-list" id="symptomCauses">
+                  <li>Аккумулятор</li><li>Стартер</li><li>Реле</li><li>Масса</li><li>Иммобилайзер</li>
+                </ul>
+              </div>
+              <div>
+                <span class="mini-label">Что делаю</span>
+                <p class="symptom-card__action" id="symptomAction">Замеряю напряжение и просадку, проверяю цепь стартера и сигнал иммобилайзера. Нахожу точку отказа — не меняю детали по очереди.</p>
+              </div>
+            </div>
+
+            <div class="symptom-card__foot">
+              <div class="symptom-card__metric"><span>Выезд + диагностика</span><strong id="symptomPrice">от 2 500 ₽</strong></div>
+              <div class="symptom-card__metric"><span>На месте</span><strong id="symptomTime">30–60 мин</strong></div>
+              <a class="btn btn--primary" href="#lead" data-symptom-lead>Записаться<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="symptoms__note">
+          <span>Не нашли свой случай?</span> Опишите проблему в заявке — подскажу по телефону, стоит ли ехать.
+          <a href="#lead">Оставить заявку <span aria-hidden="true">→</span></a>
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--dark services" id="services">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <span class="eyebrow eyebrow--light"><i></i>Услуги</span>
+            <h2>Всё, что отвечает<br>за электрику.</h2>
+          </div>
+          <p class="section-head__aside">От одной лампочки до сложной сигнализации. Работаю с легковыми, кроссоверами и лёгким коммерческим транспортом.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h4l2.2-6 4.1 12 2.3-6H21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span class="service-card__num">01</span>
+            </div>
+            <h3>Компьютерная диагностика</h3>
+            <p>Считываю ошибки всех блоков, смотрю параметры датчиков в реальном времени и проверяю то, что скрыто за кодом.</p>
+            <div class="service-card__foot"><span>от 2 000 ₽</span><a href="#lead" data-service="Компьютерная диагностика" aria-label="Оставить заявку на компьютерную диагностику">Оставить заявку <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="3.2" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.8v3M12 18.2v3M2.8 12h3M18.2 12h3M5.5 5.5l2.1 2.1M16.4 16.4l2.1 2.1M18.5 5.5l-2.1 2.1M7.6 16.4l-2.1 2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </span>
+              <span class="service-card__num">02</span>
+            </div>
+            <h3>Стартер и генератор</h3>
+            <p>Не крутит, не заряжает, свистит ремень? Проверю цепь, сниму агрегат и отремонтирую или заменю.</p>
+            <div class="service-card__foot"><span>от 3 500 ₽</span><a href="#lead" data-service="Ремонт стартера или генератора" aria-label="Оставить заявку на ремонт стартера или генератора">Оставить заявку <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="7" width="17" height="11" rx="2.2" stroke="currentColor" stroke-width="1.6"/><path d="M7 7V4.8h4V7M19.5 10.5h1.5v4h-1.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="m11.5 9.5-2 4h3l-2 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span class="service-card__num">03</span>
+            </div>
+            <h3>Поиск утечки тока</h3>
+            <p>Аккумулятор садится за ночь? Найду потребителя, который тянет ток, и устраню причину, а не следствие.</p>
+            <div class="service-card__foot"><span>от 2 500 ₽</span><a href="#lead" data-service="Поиск утечки тока" aria-label="Оставить заявку на поиск утечки тока">Оставить заявку <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6c4 0 3.5 12 8 12s4-12 8-12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="4" cy="6" r="1.7" stroke="currentColor" stroke-width="1.4"/><circle cx="20" cy="18" r="1.7" stroke="currentColor" stroke-width="1.4"/><path d="M10.5 9.5 8 12l2.5 2.5M13.5 9.5 16 12l-2.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span class="service-card__num">04</span>
+            </div>
+            <h3>Проводка и разъёмы</h3>
+            <p>Обрывы, окислы, скрутки, следы перегрева. Восстановлю цепь по заводской схеме и защищу соединения.</p>
+            <div class="service-card__foot"><span>от 1 500 ₽</span><a href="#lead" data-service="Ремонт проводки и разъёмов" aria-label="Оставить заявку на ремонт проводки">Оставить заявку <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.8 4.5 5.6v5.3c0 4.3 3.1 7.4 7.5 8.8 4.4-1.4 7.5-4.5 7.5-8.8V5.6L12 2.8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.5"/><path d="M12 12.2V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </span>
+              <span class="service-card__num">05</span>
+            </div>
+            <h3>Сигнализации и иммобилайзеры</h3>
+            <p>Блокировки, метки, автозапуск, потерянные ключи. Аккуратно, с сохранением штатных функций и без следов вмешательства.</p>
+            <div class="service-card__foot"><span>от 3 000 ₽</span><a href="#lead" data-service="Сигнализация или иммобилайзер" aria-label="Оставить заявку по сигнализации или иммобилайзеру">Оставить заявку <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8.5 4H13c3.6 0 6.5 3.6 6.5 8s-2.9 8-6.5 8H8.5V4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.5 4 5.5 6v12l3 2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M2.5 9H5M2 12h3.5M2.5 15H5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </span>
+              <span class="service-card__num">06</span>
+            </div>
+            <h3>Свет и допоборудование</h3>
+            <p>Ближний, габариты, камеры, парктроники, подогрев. Подключу через штатные разъёмы и предохранители — без соплей.</p>
+            <div class="service-card__foot"><span>от 1 800 ₽</span><a href="#lead" data-service="Свет или дополнительное оборудование" aria-label="Оставить заявку на подключение света или допоборудования">Оставить заявку <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+          </article>
+        </div>
+
+        <div class="services__callout">
+          <div>
+            <span class="services__callout-label">Не нашли свою проблему?</span>
+            <p>Опишите симптом своими словами. Скажу, что это может быть и сколько будет стоить диагностика.</p>
+          </div>
+          <a class="btn btn--ghost" href="#lead">Задать вопрос мастеру <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section--dark process" id="process">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow eyebrow--light"><i></i>Как это работает</span>
+          <h2>От сообщения<br>до исправной машины.</h2>
+          <p class="section-head__sub">Без очередей, эвакуаторов и поездок в сервис. Всё, что можно сделать на месте, делаю на месте.</p>
+        </div>
+
+        <div class="process__grid">
+          <article class="step reveal">
+            <span class="step__num">01</span>
+            <span class="step__time">1 минута</span>
+            <h3>Оставляете заявку</h3>
+            <p>Номер, марка авто и что происходит. Можно коротко, своими словами.</p>
+          </article>
+          <article class="step reveal" style="--delay:.08s">
+            <span class="step__num">02</span>
+            <span class="step__time">до 15 минут</span>
+            <h3>Созваниваемся</h3>
+            <p>Уточняю детали, задаю пару вопросов и называю ориентир по стоимости выезда.</p>
+          </article>
+          <article class="step reveal" style="--delay:.16s">
+            <span class="step__num">03</span>
+            <span class="step__time">40–60 минут</span>
+            <h3>Приезжаю</h3>
+            <p>Беру диагностику, инструмент и типовые запчасти. Проверяю на месте, по схеме.</p>
+          </article>
+          <article class="step reveal" style="--delay:.24s">
+            <span class="step__num">04</span>
+            <span class="step__time">в день обращения</span>
+            <h3>Чиню и проверяю</h3>
+            <p>Согласовываю цену до работ. После ремонта показываю результат и выдаю гарантию.</p>
+          </article>
+        </div>
+
+        <div class="guarantees reveal">
+          <div class="guarantee">
+            <span class="guarantee__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 4.5 6v5.4c0 4.2 3 7.2 7.5 8.6 4.5-1.4 7.5-4.4 7.5-8.6V6L12 3Z" stroke="currentColor" stroke-width="1.5"/><path d="m8.7 11.8 2.2 2.2 4.4-4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div><strong>Цена до начала работ</strong><span>Согласовываем сумму и только потом беру инструмент.</span></div>
+          </div>
+          <div class="guarantee">
+            <span class="guarantee__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 8v5l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.5"/><path d="M9 2h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <div><strong>Гарантия 12 месяцев</strong><span>На работы. На детали — гарантия производителя.</span></div>
+          </div>
+          <div class="guarantee">
+            <span class="guarantee__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2.2" stroke="currentColor" stroke-width="1.5"/><path d="M3 10h18M7 15h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <div><strong>Оплата после проверки</strong><span>Картой или переводом, когда машина уже работает.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--dark about" id="about">
+      <div class="container about__grid">
+        <div class="about__copy">
+          <span class="eyebrow eyebrow--light"><i></i>Подход</span>
+          <h2>Сначала — причина.<br>Потом — ремонт.</h2>
+          <p class="about__lead">Многие меняют аккумулятор, стартер и генератор по кругу, пока не закончится терпение. Я работаю иначе: проверяю цепь по схеме, измеряю, исключаю версии.</p>
+          <p>Вы платите за найденную причину, а не за перебор деталей. Если ремонт нецелесообразен — скажу об этом прямо и предложу решение.</p>
+
+          <ul class="check-list">
+            <li><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.7 5.5 8.2 14 4 9.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Работаю по заводским электросхемам</li>
+            <li><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.7 5.5 8.2 14 4 9.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Мультиметр, осциллограф и дилерское ПО</li>
+            <li><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.7 5.5 8.2 14 4 9.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Показываю измерения и объясняю, что меняю</li>
+          </ul>
+
+          <a class="btn btn--primary" href="#lead">Обсудить проблему <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__value" data-count="12" data-suffix="">0</span>
+            <span class="stat__label">лет практики<br>с автоэлектрикой</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="1800" data-suffix="+">0</span>
+            <span class="stat__label">выездов<br>к клиентам</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="40" data-suffix=" мин">0</span>
+            <span class="stat__label">среднее время<br>до приезда</span>
+          </div>
+          <div class="stat stat--accent">
+            <span class="stat__value" data-count="12" data-suffix=" мес">0</span>
+            <span class="stat__label">гарантия<br>на работы</span>
+          </div>
+          <div class="about__badge">
+            <span class="about__badge-top">VOLT</span>
+            <strong>Без<br>сюрпризов<br>в счёте</strong>
+            <span class="about__badge-bottom">диагностика → согласование → ремонт</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICES -->
+    <section class="section section--paper prices" id="prices">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <span class="eyebrow"><i></i>Цены</span>
+            <h2>Прозрачно<br>до поездки.</h2>
+          </div>
+          <p class="section-head__aside">Это ориентиры. Точную сумму называю после диагностики — до начала работ. Диагностика зачитывается в счёт ремонта.</p>
+        </div>
+
+        <div class="price-table">
+          <div class="price-table__head" aria-hidden="true">
+            <span>Услуга</span><span>Что входит</span><span>Стоимость</span>
+          </div>
+
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">01</span><strong>Выездная диагностика</strong></div>
+            <p>Осмотр, замеры, поиск причины на месте</p>
+            <div class="price-row__value">2 500 ₽</div>
+          </div>
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">02</span><strong>Компьютерная диагностика</strong></div>
+            <p>Все блоки, чтение и расшифровка ошибок</p>
+            <div class="price-row__value">2 000 ₽</div>
+          </div>
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">03</span><strong>Ремонт стартера</strong></div>
+            <p>Снятие, проверка, ремонт, установка</p>
+            <div class="price-row__value">от 3 500 ₽</div>
+          </div>
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">04</span><strong>Ремонт генератора</strong></div>
+            <p>Диагностика, ремонт, проверка заряда</p>
+            <div class="price-row__value">от 4 000 ₽</div>
+          </div>
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">05</span><strong>Поиск утечки тока</strong></div>
+            <p>Замеры, поиск потребителя, устранение</p>
+            <div class="price-row__value">от 2 500 ₽</div>
+          </div>
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">06</span><strong>Ремонт проводки</strong></div>
+            <p>Восстановление цепи, разъёмов, массы</p>
+            <div class="price-row__value">от 1 500 ₽</div>
+          </div>
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">07</span><strong>Сигнализация / иммобилайзер</strong></div>
+            <p>Диагностика, разблокировка, настройка</p>
+            <div class="price-row__value">от 3 000 ₽</div>
+          </div>
+          <div class="price-row">
+            <div class="price-row__name"><span class="price-row__index">08</span><strong>Аварийный выезд 23:00–07:00</strong></div>
+            <p>Диагностика и запуск на месте</p>
+            <div class="price-row__value">+1 000 ₽</div>
+          </div>
+        </div>
+
+        <div class="prices__foot">
+          <p><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.4"/><path d="M10 6v4.5M10 13.5v.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Выезд за пределы города — по километражу. Стоимость скажу сразу по телефону, до выезда.</p>
+          <a class="btn btn--dark" href="#lead">Рассчитать стоимость <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section section--dark reviews" id="reviews">
+      <div class="container">
+        <div class="section-head section-head--reviews">
+          <div>
+            <span class="eyebrow eyebrow--light"><i></i>Отзывы</span>
+            <h2>Клиенты возвращаются<br>не по гарантии.</h2>
+          </div>
+          <div class="rating">
+            <strong>4.9</strong>
+            <div>
+              <span class="stars" role="img" aria-label="Оценка 4.9 из 5">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+              </span>
+              <small>87 отзывов · пример</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews__grid">
+          <article class="review">
+            <div class="review__top">
+              <span class="stars stars--sm" role="img" aria-label="5 из 5">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+              </span>
+              <span class="review__quote" aria-hidden="true">“</span>
+            </div>
+            <p>Машина не заводилась на парковке в 11 вечера. Приехал через 40 минут, нашёл окисленную массу. За 20 минут всё заработало. Спокойно объяснил, что произошло.</p>
+            <div class="review__author">
+              <span class="review__avatar">М</span>
+              <div><strong>Марина</strong><small>Skoda Octavia</small></div>
+            </div>
+          </article>
+
+          <article class="review">
+            <div class="review__top">
+              <span class="stars stars--sm" role="img" aria-label="5 из 5">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+              </span>
+              <span class="review__quote" aria-hidden="true">“</span>
+            </div>
+            <p>Два сервиса сказали менять генератор. Здесь проверили цепь и нашли обрыв в проводке. Сэкономил больше 30 тысяч и не остался без машины на неделю.</p>
+            <div class="review__author">
+              <span class="review__avatar review__avatar--b">Д</span>
+              <div><strong>Дмитрий</strong><small>Ford Focus</small></div>
+            </div>
+          </article>
+
+          <article class="review">
+            <div class="review__top">
+              <span class="stars stars--sm" role="img" aria-label="5 из 5">
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.5 2 4 4.4.6-3.2 3.1.8 4.4L8 11.5l-4 2.1.8-4.4L1.6 6.1 6 5.5l2-4Z"/></svg>
+              </span>
+              <span class="review__quote" aria-hidden="true">“</span>
+            </div>
+            <p>Аккумулятор садился каждое утро. Нашёл утечку от магнитолы, переделал подключение. Третий месяц — полёт нормальный. Приятно, когда не разводят на новый АКБ.</p>
+            <div class="review__author">
+              <span class="review__avatar review__avatar--c">С</span>
+              <div><strong>Сергей</strong><small>Toyota Camry</small></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--dark faq" id="faq">
+      <div class="container faq__grid">
+        <div class="faq__intro">
+          <span class="eyebrow eyebrow--light"><i></i>Вопросы</span>
+          <h2>Коротко<br>о главном.</h2>
+          <p>Не нашли ответ? Позвоните — отвечу без скриптов и «менеджер свяжется с вами».</p>
+          <a class="faq__phone" href="tel:+79991234567" data-phone-link>
+            <span>Позвонить мастеру</span>
+            <strong data-phone>+7 (999) 123-45-67</strong>
+          </a>
+          <a class="btn btn--ghost" href="#lead">Написать в заявке</a>
+        </div>
+
+        <div class="faq__list">
+          <details class="faq-item" open>
+            <summary><span>Сколько стоит выезд?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Выезд в пределах города — 2 500 ₽, включая первичную диагностику. Если ремонт делаем на месте, стоимость зачитывается. За городом — по километражу, скажу сразу по телефону.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Как быстро приедете?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Обычно 40–60 минут по городу. В час пик — до 1,5 часов. Точное время назову при звонке, без обещаний «через 15 минут», если это не так.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Работаете ночью?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Да, выезжаю круглосуточно. Ночной выезд с 23:00 до 07:00 — +1 000 ₽ к стоимости диагностики. Если ситуация аварийная — звоните, не ждите утра.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Можно ли починить на месте?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>В большинстве случаев да: проводка, разъёмы, стартер, генератор, свет, сигнализация. Если нужен подъёмник или сложный ремонт — честно скажу и помогу организовать.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Даёте гарантию?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>На работы — 12 месяцев. На установленные детали — гарантия производителя. Гарантийный талон и чек выдаю после ремонта. Если что-то пошло не так — вернусь и разберусь.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Машина не заводится. Что делать до приезда?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Включите аварийку, выставьте знак и не крутите стартер постоянно — так можно посадить АКБ и залить свечи. Оставьте заявку или позвоните, подскажу, что проверить до приезда.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Можно оплатить картой?</span><i aria-hidden="true"></i></summary>
+            <div class="faq-item__body"><p>Да, картой или переводом. Чек и закрывающие документы — по запросу. Оплата после проверки работы, а не вперёд.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEAD -->
+    <section class="section lead" id="lead">
+      <div class="lead__glow" aria-hidden="true"></div>
+      <div class="container lead__grid">
+        <div class="lead__copy">
+          <span class="eyebrow eyebrow--light"><i></i>Заявка на выезд</span>
+          <h2>Опишите симптом.<br>Остальное — моя работа.</h2>
+          <p class="lead__sub">Перезвоню в течение 15 минут, уточню детали и назову ориентир по цене. Без навязывания и «диагностики ради диагностики».</p>
+
+          <div class="contact-list">
+            <a class="contact-row" href="tel:+79991234567" data-phone-link>
+              <span class="contact-row__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.7 3.5 9 3l1.8 4.4-1.7 1.4c.9 2.1 2.7 3.9 4.8 4.8l1.4-1.7L19.7 14l-.5 2.3c-.3 1.4-1.6 2.4-3 2.2C9.6 17.7 4.3 12.4 3.5 5.9c-.2-1.4.8-2.7 2.2-3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span>
+              <span class="contact-row__text"><small>Позвонить</small><strong data-phone>+7 (999) 123-45-67</strong></span>
+              <span class="contact-row__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-row" href="https://wa.me/79991234567" data-wa-link target="_blank" rel="noopener">
+              <span class="contact-row__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.5 11.7a8.4 8.4 0 0 1-12.3 7.5L3.5 20.5l1.3-4.5a8.4 8.4 0 1 1 15.7-4.3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M8.8 8.3c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.3-.1.5.4.8 1.1 1.5 1.9 1.9.2.1.4 0 .5-.1l.6-.6c.2-.2.4-.2.6-.1l1.7.8c.4.2.5.3.5.5 0 .2 0 .9-.3 1.3-.3.4-.9.8-1.5.8-1.2 0-3-.8-4.5-2.2-1.4-1.4-2.2-3.2-2.2-4.4 0-.6.4-1.1.8-1.3Z" fill="currentColor"/></svg></span>
+              <span class="contact-row__text"><small>WhatsApp</small><strong>Написать сообщение</strong></span>
+              <span class="contact-row__arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-row" href="https://t.me/volt_auto" data-tg-link target="_blank" rel="noopener">
+              <span class="contact-row__icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m21 4.5-3.2 15.1c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.3 13.1 1.8 11.7c-1-.3-1-1 .2-1.5L19.6 3c.8-.3 1.5.2 1.4 1.5Z" fill="currentColor"/></svg></span>
+              <span class="contact-row__text"><small>Telegram</small><strong>@volt_auto</strong></span>
+              <span class="contact-row__arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="lead__emergency">
+            <span class="lead__emergency-icon"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2.5 18 17H2L10 2.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 7v4.5M10 14.2v.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <p><strong>Машина заглохла на ходу или перекрывает выезд?</strong> Звоните сразу — форма может подождать.</p>
+          </div>
+        </div>
+
+        <div class="lead-card">
+          <div class="lead-card__head">
+            <div>
+              <span class="lead-card__label">Заявка на выезд</span>
+              <strong>Расскажите, что случилось</strong>
+            </div>
+            <span class="lead-card__time"><i></i>≈ 15 мин</span>
+          </div>
+
+          <form class="lead-form" id="leadForm" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Ваше имя</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Алексей" required>
+                <span class="field__error" data-error-for="name"></span>
+              </div>
+              <div class="field">
+                <label for="phone">Телефон</label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required>
+                <span class="field__error" data-error-for="phone"></span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="car">Марка и модель авто <span>необязательно</span></label>
+              <input id="car" name="car" type="text" autocomplete="off" placeholder="Например, Kia Rio 2018">
+            </div>
+
+            <div class="field">
+              <label for="problem">Что происходит?</label>
+              <div class="select-wrap">
+                <select id="problem" name="problem" required>
+                  <option value="" selected disabled>Выберите проблему</option>
+                  <option>Не заводится</option>
+                  <option>Горит Check Engine</option>
+                  <option>Садится аккумулятор</option>
+                  <option>Проблема с проводкой</option>
+                  <option>Сигнализация или иммобилайзер</option>
+                  <option>Свет или допоборудование</option>
+                  <option>Другое</option>
+                </select>
+                <svg class="select-wrap__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m6 8 4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span class="field__error" data-error-for="problem"></span>
+            </div>
+
+            <div class="field">
+              <label for="comment">Комментарий <span>необязательно</span></label>
+              <textarea id="comment" name="comment" rows="3" placeholder="Где находится машина, что уже проверяли, когда случилось"></textarea>
+            </div>
+
+            <label class="consent">
+              <input id="consent" name="consent" type="checkbox" required>
+              <span class="consent__box" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none"><path d="m2.5 7 3 3 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span>Согласен на обработку персональных данных и с <button type="button" class="link-btn" data-open-privacy>политикой конфиденциальности</button></span>
+            </label>
+            <span class="field__error field__error--consent" data-error-for="consent"></span>
+
+            <p class="form-error" id="formError" role="alert" hidden></p>
+
+            <button class="btn btn--primary btn--full" type="submit" id="submitBtn">
+              <span>Отправить заявку</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <p class="lead-form__note">
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="1.6" stroke="currentColor" stroke-width="1.2"/><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2" stroke="currentColor" stroke-width="1.2"/></svg>
+              Демо-режим: данные остаются в вашем браузере. <button type="button" class="link-btn" id="sampleNotification">Как придёт заявка?</button>
+            </p>
+          </form>
+
+          <div class="form-success" id="formSuccess" role="status" aria-live="polite" hidden>
+            <span class="form-success__icon">
+              <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="m7 16.5 6 6L25 10" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="form-success__eyebrow" id="successEyebrow">Демо-заявка сформирована</span>
+            <h3 id="successTitle">Так она придёт мастеру</h3>
+            <p id="successText">В рабочей версии заявка мгновенно уйдёт в Telegram и CRM. Сейчас данные остались только в вашем браузере.</p>
+            <div class="form-success__summary" id="successSummary"></div>
+            <div class="form-success__actions">
+              <button class="btn btn--dark" type="button" id="showSavedNotification">Показать уведомление</button>
+              <button class="btn btn--ghost btn--ghost-dark" type="button" id="newRequest">Новая заявка</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand" href="#top" aria-label="ВОЛЬТ — наверх">
+            <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M18.6 3 8.5 18.2h6.6L13.6 29l10.4-16.4h-6.7L18.6 3Z" fill="currentColor"/></svg></span>
+            <span class="brand__text"><strong data-brand>ВОЛЬТ</strong><small data-tagline>выездной автоэлектрик</small></span>
+          </a>
+          <p>Диагностика и ремонт автомобильной электрики на месте. <span data-city>Москва и Московская область</span>.</p>
+          <div class="footer__social">
+            <a href="https://t.me/volt_auto" data-tg-link target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none"><path d="m21 4.5-3.2 15.1c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.3 13.1 1.8 11.7c-1-.3-1-1 .2-1.5L19.6 3c.8-.3 1.5.2 1.4 1.5Z" fill="currentColor"/></svg></a>
+            <a href="https://wa.me/79991234567" data-wa-link target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none"><path d="M20.5 11.7a8.4 8.4 0 0 1-12.3 7.5L3.5 20.5l1.3-4.5a8.4 8.4 0 1 1 15.7-4.3Z" stroke="currentColor" stroke-width="1.5"/><path d="M8.2 8.1c.2-.4.4-.4.7-.4h.6c.2 0 .4 0 .5.4l.8 1.9c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3-.1.5.4.8 1.1 1.5 1.9 1.9.2.1.4 0 .5-.1l.6-.6c.2-.2.3-.2.6-.1l1.7.8c.3.2.4.3.4.5 0 .2 0 .9-.3 1.2-.3.4-.9.7-1.4.7-1.2 0-2.9-.8-4.3-2.1-1.3-1.3-2.1-3-2.1-4.2 0-.6.3-1.1.7-1.4Z" fill="currentColor"/></svg></a>
+            <a href="tel:+79991234567" data-phone-link aria-label="Позвонить"><svg viewBox="0 0 24 24" fill="none"><path d="M6.7 3.5 9 3l1.8 4.4-1.7 1.4c.9 2.1 2.7 3.9 4.8 4.8l1.4-1.7L19.7 14l-.5 2.3c-.3 1.4-1.6 2.4-3 2.2C9.6 17.7 4.3 12.4 3.5 5.9c-.2-1.4.8-2.7 2.2-3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <span class="footer__title">Навигация</span>
+          <a href="#symptoms">Симптомы</a>
+          <a href="#services">Услуги</a>
+          <a href="#prices">Цены</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">Вопросы</a>
+        </div>
+
+        <div class="footer__col">
+          <span class="footer__title">Услуги</span>
+          <a href="#services">Диагностика</a>
+          <a href="#services">Стартер и генератор</a>
+          <a href="#services">Утечка тока</a>
+          <a href="#services">Проводка</a>
+          <a href="#services">Сигнализации</a>
+        </div>
+
+        <div class="footer__col footer__col--contacts">
+          <span class="footer__title">Контакты</span>
+          <a class="footer__phone" href="tel:+79991234567" data-phone-link data-phone>+7 (999) 123-45-67</a>
+          <a href="mailto:hello@volt-demo.ru" data-email-link data-email>hello@volt-demo.ru</a>
+          <span data-hours>Круглосуточно, 7 дней в неделю</span>
+          <span data-city>Москва и Московская область</span>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> <span data-brand>ВОЛЬТ</span>. Демонстрационный проект.</span>
+        <span>Не является публичной офертой. Цифры и отзывы — примеры.</span>
+        <button class="link-btn" type="button" data-open-privacy>Политика конфиденциальности</button>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="mobile-bar" aria-label="Быстрые действия">
+    <a class="mobile-bar__call" href="tel:+79991234567" data-phone-link>
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.7 3.5 9 3l1.8 4.4-1.7 1.4c.9 2.1 2.7 3.9 4.8 4.8l1.4-1.7L19.7 14l-.5 2.3c-.3 1.4-1.6 2.4-3 2.2C9.6 17.7 4.3 12.4 3.5 5.9c-.2-1.4.8-2.7 2.2-3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      Позвонить
+    </a>
+    <a class="mobile-bar__lead" href="#lead">Оставить заявку <span aria-hidden="true">→</span></a>
+  </nav>
+
+  <!-- TELEGRAM-STYLE NOTIFICATION -->
+  <aside class="tg-toast" id="tgToast" role="status" aria-live="polite" aria-hidden="true">
+    <div class="tg-toast__head">
+      <span class="tg-toast__logo"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m21 4.5-3.2 15.1c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.3 13.1 1.8 11.7c-1-.3-1-1 .2-1.5L19.6 3c.8-.3 1.5.2 1.4 1.5Z" fill="currentColor"/></svg></span>
+      <div><strong>ВОЛЬТ · заявки</strong><span>бот · только что</span></div>
+      <button type="button" class="tg-toast__close" id="closeToast" aria-label="Закрыть уведомление">×</button>
+    </div>
+    <div class="tg-toast__body" id="toastBody"></div>
+    <div class="tg-toast__foot">
+      <span>Пример уведомления</span>
+      <a href="tel:+79991234567" data-phone-link>Позвонить клиенту</a>
+    </div>
+  </aside>
+
+  <!-- PRIVACY -->
+  <dialog class="modal" id="privacyDialog" aria-labelledby="privacyTitle">
+    <div class="modal__inner">
+      <div class="modal__head">
+        <span class="eyebrow"><i></i>Документы</span>
+        <button class="modal__close" type="button" data-close-privacy aria-label="Закрыть">×</button>
+      </div>
+      <h2 id="privacyTitle">Политика конфиденциальности</h2>
+      <div class="modal__body">
+        <p><strong>Это демонстрационный сайт.</strong> Форма заявки не отправляет данные на сервер и не передаёт их третьим лицам. Введённые имя, телефон и описание проблемы сохраняются только в локальном хранилище вашего браузера — чтобы показать, как будет выглядеть заявка.</p>
+        <h3>Какие данные собираются</h3>
+        <p>В демо-режиме — только то, что вы ввели в форму: имя, телефон, марка автомобиля, проблема и комментарий. Эти данные не покидают устройство.</p>
+        <h3>Как удалить данные</h3>
+        <p>Очистите данные сайта в настройках браузера или нажмите «Новая заявка» после отправки. Записи также можно удалить через инструменты разработчика: localStorage → ключ <code>volt_demo_leads</code>.</p>
+        <h3>Для рабочей версии</h3>
+        <p>Перед запуском сайта с реальными заявками необходимо добавить согласие на обработку персональных данных, политику оператора и настроить защищённое хранение заявок в соответствии с 152-ФЗ.</p>
+        <p class="modal__note">Демо-версия · 2026</p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

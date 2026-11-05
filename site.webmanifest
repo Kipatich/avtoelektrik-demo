@@ -1,0 +1,17 @@
+{
+  "name": "ВОЛЬТ — выездной автоэлектрик",
+  "short_name": "ВОЛЬТ",
+  "description": "Демо-сайт выездного автоэлектрика: диагностика и ремонт на месте.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07080a",
+  "theme_color": "#07080a",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

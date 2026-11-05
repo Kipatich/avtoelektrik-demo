@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>404 — страница не найдена | ВОЛЬТ</title>
+  <style>
+    @font-face{font-family:"Unbounded";src:url("/avtoelektrik-demo/assets/fonts/unbounded-cyr.woff2") format("woff2");font-weight:200 900;font-display:swap}
+    @font-face{font-family:"Manrope";src:url("/avtoelektrik-demo/assets/fonts/manrope-cyr.woff2") format("woff2");font-weight:200 800;font-display:swap}
+    *{box-sizing:border-box;margin:0}
+    body{min-height:100vh;display:grid;place-items:center;padding:24px;background:#07080a;color:#f3f0e9;font-family:"Manrope",Arial,sans-serif;overflow:hidden}
+    body:before{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(ellipse at center,#000,transparent 72%);pointer-events:none}
+    body:after{content:"";position:fixed;width:640px;height:640px;right:-180px;top:-280px;border-radius:50%;background:radial-gradient(circle,rgba(255,178,36,.17),transparent 68%);pointer-events:none}
+    main{position:relative;width:min(680px,100%);text-align:center}
+    .logo{display:inline-flex;align-items:center;gap:11px;margin-bottom:46px}
+    .mark{width:42px;height:42px;border-radius:13px;background:#ffb224;display:grid;place-items:center}
+    .mark svg{width:23px;height:23px}
+    .logo b{font-family:"Unbounded";font-size:17px;font-weight:600;letter-spacing:.06em}
+    .logo span{display:block;margin-top:3px;color:#8b949c;font-size:7.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+    .code{font-family:"Unbounded";font-size:clamp(90px,22vw,170px);font-weight:500;line-height:.8;letter-spacing:-.06em;color:transparent;-webkit-text-stroke:1px rgba(255,178,36,.55)}
+    h1{margin:28px 0 12px;font-family:"Unbounded";font-size:clamp(24px,5vw,36px);font-weight:500;letter-spacing:-.03em}
+    p{max-width:430px;margin:0 auto;color:#8f99a2;font-size:13px;line-height:1.7}
+    .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin-top:28px}
+    a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 20px;border-radius:999px;font-size:12px;font-weight:700;text-decoration:none;transition:.2s}
+    .primary{background:#ffb224;color:#07080a}
+    .primary:hover{background:#ffc457}
+    .ghost{border:1px solid rgba(255,255,255,.18);color:#f3f0e9}
+    .ghost:hover{border-color:#ffb224;color:#ffb224}
+    .note{margin-top:30px;color:#59626b;font-size:9px;letter-spacing:.06em;text-transform:uppercase}
+  </style>
+</head>
+<body>
+  <main>
+    <a class="logo" href="/avtoelektrik-demo/" aria-label="ВОЛЬТ — на главную">
+      <span class="mark"><svg viewBox="0 0 32 32" fill="none"><path d="M18.6 3 8.5 18.2h6.6L13.6 29l10.4-16.4h-6.7L18.6 3Z" fill="#07080a"/></svg></span>
+      <span><b>ВОЛЬТ</b><span>выездной автоэлектрик</span></span>
+    </a>
+    <div class="code">404</div>
+    <h1>Страница не на месте</h1>
+    <p>Ссылка устарела или в адресе опечатка. Вернитесь на главную — там услуги, цены и форма заявки.</p>
+    <div class="actions">
+      <a class="primary" href="/avtoelektrik-demo/">На главную</a>
+      <a class="ghost" href="tel:+79991234567">Позвонить мастеру</a>
+    </div>
+    <div class="note">ВОЛЬТ · демонстрационный проект</div>
+  </main>
+</body>
+</html>
