@@ -20,12 +20,9 @@ window.VOLT_CONFIG = {
   hours: "Круглосуточно, 7 дней в неделю",
   email: "hello@volt-demo.ru",
 
-  // true — форма работает в демо-режиме и никуда не отправляет данные.
-  // Для приёма реальных заявок подключите Telegram-бот / CRM / почту.
-  demoMode: true,
-
-  // Необязательно: endpoint Formspree / Getform / вашего API.
-  // Если указать URL, форма будет отправлять туда JSON.
+  // Пока leadEndpoint пустой — форма работает в демо-режиме
+  // и никуда не отправляет данные.
+  // Укажите endpoint Formspree / Getform / вашего API, чтобы принимать заявки.
   // Пример: "https://formspree.io/f/xxxxxxxx"
   leadEndpoint: ""
 };
