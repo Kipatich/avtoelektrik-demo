@@ -170,94 +170,114 @@
               <div class="diag__stage-grid"></div>
               <div class="diag__scan"></div>
 
-              <!-- Car silhouette: public domain (CC0), publicdomainvectors.org. Restyled for the demo. -->
-              <svg class="car-svg" viewBox="0 0 180 80" fill="none">
+                            <!-- ECU / wiring diagnostic schematic -->
+              <svg class="circuit-svg" viewBox="0 0 520 300" fill="none">
     <defs>
-      <linearGradient id="paint" x1="0" y1="16" x2="0" y2="70" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#3b4a55"/>
-        <stop offset=".18" stop-color="#222d36"/>
-        <stop offset=".55" stop-color="#131b21"/>
-        <stop offset="1" stop-color="#080c10"/>
+      <radialGradient id="core" cx=".5" cy=".5" r=".5">
+        <stop offset="0" stop-color="#ffb224" stop-opacity=".16"/>
+        <stop offset=".7" stop-color="#ffb224" stop-opacity=".04"/>
+        <stop offset="1" stop-color="#ffb224" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="module" x1="0" y1="100" x2="0" y2="200" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#131b21"/>
+        <stop offset="1" stop-color="#080c0f"/>
       </linearGradient>
-      <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#c2ced8"/>
-        <stop offset=".45" stop-color="#657581"/>
-        <stop offset="1" stop-color="#26323b"/>
-      </linearGradient>
-      <clipPath id="carClip">
-        <path d="m229.52 196.33c-0.09-8.41 0.63-14.12 2.92-14.62l11.85-1.54c8.38-3.87 17.11-8.68 24.77-10.62 5.88-1.17 12.1-1.88 18.77-2 13.43 0.22 28.36-0.7 37.85 2.47 9.04 4.17 17.95 8.62 26.46 13.84 11.48 0.79 34.91 3.98 38.32 7.7 1.69 2.28 3.05 4.73 3.69 7.54 1.49 0.61 1.38 2.82 0.77 5.53l-0.16 5.54-5.69 2.31-11.23 1.39-2.92 0.77c-4.24 9.94-19.98 8.71-24.31-0.47l-3.54 0.62-63.09-0.62-0.77 1.08-4.92-0.15c-3.3 10.15-22.17 11.08-25.08-1.39h-2.46l-7.39-1.07-11.23-1.54c-3.06-1.82-4.34-3.19-4.62-4.31l0.77-1.08-0.61-6.15c0.41-2.09 0.79-2.76 1.85-3.23zm68.16-26.37c-6.77 0.01-13.39 0.26-19.34 1.57l1.39 11.78 20.9 0.72c0.86-0.18 1.76-0.32 1.59-1.79l-2.18-12.28c-0.79-0.01-1.57 0-2.36 0zm-20.34 1.8c-4.01 0.97-7.7 2.47-10.9 4.74-1.27 0.85-1.73 1.85-1.68 2.97 0.59 2.54 2.09 3.57 4.26 3.47l9.71 0.33-1.39-11.51zm27.26-1.7l4.46 12.68c0.56 0.92 1.38 1.61 2.88 1.69l21.7 0.89c-3.09-2.11-0.55-6 2.58-5.15-5.87-4.89-12.24-7.99-19.13-9.22-4.05-0.65-8.26-0.79-12.49-0.89zm-71.88 12.58c-1.78 0.64-2.21 5.18-2.29 10.75l5.83-0.05c0.22-1.95 0.26-3.9 0.02-5.85-0.57-3.41-2.17-3.83-3.56-4.85zm38.65 5.22h5.51c0.43 0 0.79 0.36 0.79 0.79 0 0.44-0.36 0.79-0.79 0.79h-5.51c-0.44 0-0.79-0.35-0.79-0.79 0-0.43 0.35-0.79 0.79-0.79zm38 0.91h5.51c0.44 0 0.79 0.35 0.79 0.79s-0.35 0.79-0.79 0.79h-5.51c-0.44 0-0.79-0.35-0.79-0.79s0.35-0.79 0.79-0.79zm-34.25 21.22c0 5.04-4.09 9.13-9.13 9.13s-9.13-4.09-9.13-9.13 4.09-9.13 9.13-9.13 9.13 4.09 9.13 9.13zm97.44-1.16c0 5.04-4.09 9.13-9.13 9.13s-9.13-4.09-9.13-9.13 4.09-9.13 9.13-9.13 9.13 4.09 9.13 9.13zm7.63-11.03l11.79 0.08c-0.91-1.96-2.08-3.7-3.91-5.12l-4.56 0.35c-0.84 0.13-1.19 0.5-1.5 0.89l-1.82 3.8z" transform="translate(-221.51 -155.05)" clip-rule="evenodd"/>
-      </clipPath>
     </defs>
-    <!-- darker privacy glass, window highlights are added below -->
-    <path d="M64 21h64l8 8v16H54V29l10-8Z" fill="#081116"/>
-    <!-- silhouette body -->
-    <g transform="translate(-221.51 -155.05)">
-      <path d="m229.52 196.33c-0.09-8.41 0.63-14.12 2.92-14.62l11.85-1.54c8.38-3.87 17.11-8.68 24.77-10.62 5.88-1.17 12.1-1.88 18.77-2 13.43 0.22 28.36-0.7 37.85 2.47 9.04 4.17 17.95 8.62 26.46 13.84 11.48 0.79 34.91 3.98 38.32 7.7 1.69 2.28 3.05 4.73 3.69 7.54 1.49 0.61 1.38 2.82 0.77 5.53l-0.16 5.54-5.69 2.31-11.23 1.39-2.92 0.77c-4.24 9.94-19.98 8.71-24.31-0.47l-3.54 0.62-63.09-0.62-0.77 1.08-4.92-0.15c-3.3 10.15-22.17 11.08-25.08-1.39h-2.46l-7.39-1.07-11.23-1.54c-3.06-1.82-4.34-3.19-4.62-4.31l0.77-1.08-0.61-6.15c0.41-2.09 0.79-2.76 1.85-3.23zm68.16-26.37c-6.77 0.01-13.39 0.26-19.34 1.57l1.39 11.78 20.9 0.72c0.86-0.18 1.76-0.32 1.59-1.79l-2.18-12.28c-0.79-0.01-1.57 0-2.36 0zm-20.34 1.8c-4.01 0.97-7.7 2.47-10.9 4.74-1.27 0.85-1.73 1.85-1.68 2.97 0.59 2.54 2.09 3.57 4.26 3.47l9.71 0.33-1.39-11.51zm27.26-1.7l4.46 12.68c0.56 0.92 1.38 1.61 2.88 1.69l21.7 0.89c-3.09-2.11-0.55-6 2.58-5.15-5.87-4.89-12.24-7.99-19.13-9.22-4.05-0.65-8.26-0.79-12.49-0.89zm-71.88 12.58c-1.78 0.64-2.21 5.18-2.29 10.75l5.83-0.05c0.22-1.95 0.26-3.9 0.02-5.85-0.57-3.41-2.17-3.83-3.56-4.85zm38.65 5.22h5.51c0.43 0 0.79 0.36 0.79 0.79 0 0.44-0.36 0.79-0.79 0.79h-5.51c-0.44 0-0.79-0.35-0.79-0.79 0-0.43 0.35-0.79 0.79-0.79zm38 0.91h5.51c0.44 0 0.79 0.35 0.79 0.79s-0.35 0.79-0.79 0.79h-5.51c-0.44 0-0.79-0.35-0.79-0.79s0.35-0.79 0.79-0.79zm-34.25 21.22c0 5.04-4.09 9.13-9.13 9.13s-9.13-4.09-9.13-9.13 4.09-9.13 9.13-9.13 9.13 4.09 9.13 9.13zm97.44-1.16c0 5.04-4.09 9.13-9.13 9.13s-9.13-4.09-9.13-9.13 4.09-9.13 9.13-9.13 9.13 4.09 9.13 9.13zm7.63-11.03l11.79 0.08c-0.91-1.96-2.08-3.7-3.91-5.12l-4.56 0.35c-0.84 0.13-1.19 0.5-1.5 0.89l-1.82 3.8z" fill="url(#paint)" stroke="#61707c" stroke-width=".7"/>
-    </g>
-    <!-- body details clipped to silhouette -->
-    <g clip-path="url(#carClip)" transform="translate(-221.51 -155.05)">
-      <path d="M236 207c30 2 64 3 100 3s70-1 101-3" stroke="#465763" stroke-width=".9" opacity=".55"/>
-      <path d="M232 219c36 3 78 4 122 4s86-1 122-4" stroke="#26323b" stroke-width=".9" opacity=".6"/>
-      <path d="M244 212h72M330 212h62" stroke="#0a0f13" stroke-width="1.4"/>
-      <path d="M246 204h10M259 204h10M345 204h10M358 204h10" stroke="#93a3ae" stroke-opacity=".45" stroke-width="1.4" stroke-linecap="round"/>
-    </g>
-    <!-- wheel rims -->
-    <g>
-      <circle cx="43.3" cy="60.7" r="9" fill="#07090b" stroke="#3d4953" stroke-width="1.2"/>
-      <circle cx="43.3" cy="60.7" r="6.1" fill="#101820" stroke="#6c7c88" stroke-width=".8"/>
-      <circle cx="43.3" cy="60.7" r="3.5" fill="url(#rim)" stroke="#aab8c3" stroke-width=".5"/>
-      <path d="M43.3 55.5v10.4M38.1 60.7h10.4M39.6 57l7.4 7.4M46.9 57l-7.3 7.4" stroke="#25323b" stroke-width=".7"/>
-      <circle cx="43.3" cy="60.7" r="1.2" fill="#202c35" stroke="#b6c3cd" stroke-width=".4"/>
-    </g>
-    <g>
-      <circle cx="138.4" cy="60.7" r="9" fill="#07090b" stroke="#3d4953" stroke-width="1.2"/>
-      <circle cx="138.4" cy="60.7" r="6.1" fill="#101820" stroke="#6c7c88" stroke-width=".8"/>
-      <circle cx="138.4" cy="60.7" r="3.5" fill="url(#rim)" stroke="#aab8c3" stroke-width=".5"/>
-      <path d="M138.4 55.5v10.4M133.2 60.7h10.4M134.7 57l7.4 7.4M142 57l-7.3 7.4" stroke="#25323b" stroke-width=".7"/>
-      <circle cx="138.4" cy="60.7" r="1.2" fill="#202c35" stroke="#b6c3cd" stroke-width=".4"/>
-    </g>
-    <!-- window pillars and trim -->
-    <path d="M78 21v24M112 21v24" stroke="#0a1015" stroke-width="1.6"/>
-    <path d="M78 21v24M112 21v24" stroke="#3c4e5b" stroke-width=".4"/>
-    <path d="M56 45h95" stroke="#33434f" stroke-width=".7" opacity=".8"/>
-    <path d="M59 24h15M81 22h27M114 23h16" stroke="#9fb7c6" stroke-opacity=".28" stroke-width=".55" stroke-linecap="round"/>
-    <!-- lights -->
-    <g clip-path="url(#carClip)">
-      <path d="M157 36l9 2 .6 5-10-1 .4-6Z" fill="#c2dce9" fill-opacity=".75" stroke="#8aa5b4" stroke-width=".5"/>
-      <path d="M158 39l7 1.3" stroke="#ffb224" stroke-width=".9" stroke-linecap="round"/>
-      <path d="M10 36l10-2 .4 6-10 2.2-.4-6.2Z" fill="#ff5c5c" fill-opacity=".8"/>
-    </g>
-    <!-- side mirror -->
-    <path d="M110 25l6-4c3-1 5 1 5 3s-2 3-4 3l-7 .5V25Z" fill="#1a242c" stroke="#5b6b77" stroke-width=".5"/>
+
+    <circle cx="260" cy="150" r="128" stroke="#ffb224" stroke-opacity=".08" stroke-dasharray="1 7"/>
+    <circle cx="260" cy="150" r="104" stroke="#ffb224" stroke-opacity=".1"/>
+    <circle cx="260" cy="150" r="142" stroke="#ffffff" stroke-opacity=".035" stroke-dasharray="1 10"/>
+    <path d="M78 150h364M260 24v252" stroke="#ffffff" stroke-opacity=".04" stroke-dasharray="2 7"/>
+    <path d="M88 90h18M88 210h18M414 90h18M414 210h18" stroke="#7b8893" stroke-opacity=".3"/>
+
     <!-- traces -->
-    <g stroke="#ffb224" stroke-width=".55" opacity=".5">
-      <path d="M12 10h30l10 8M168 10h-28l-9 8"/>
-      <path d="M12 73h28l10-8M168 73h-28l-9-8"/>
-      <path d="M4 25v18l10 6M176 25v18l-10 6" stroke-dasharray="1.6 2.8"/>
-      <path d="M90 7V3M90 77v-4" stroke-dasharray="1.6 2.8"/>
+    <g stroke="#ffb224" stroke-width="1.3" opacity=".55">
+      <path d="M335 120h15l16-16V98"/>
+      <path d="M185 180h-15l-16 16v6"/>
+      <path d="M335 180h15l16 16v6"/>
+      <path d="M185 120h-9"/>
     </g>
-    <g fill="#ffb224">
-      <circle cx="12" cy="10" r="1.5"/><circle cx="168" cy="10" r="1.5"/>
-      <circle cx="12" cy="73" r="1.5"/><circle cx="168" cy="73" r="1.5"/>
-      <circle cx="4" cy="25" r="1.2"/><circle cx="176" cy="25" r="1.2"/>
-    </g>
-    <!-- hotspots -->
+
+    <!-- broken battery branch -->
+    <path d="M176 120h9M154 98v7l8 8" stroke="#ff5c5c" stroke-width="1.5" stroke-dasharray="3 3" opacity=".95"/>
+    <circle cx="168" cy="117" r="9" fill="#ff5c5c" fill-opacity=".08" stroke="#ff5c5c" stroke-opacity=".45"/>
+    <path d="M168 112v6M168 121v.5" stroke="#ff5c5c" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- modules -->
     <g>
-      <circle cx="90" cy="38" r="6" stroke="#ffb224" stroke-opacity=".18"/>
-      <circle cx="90" cy="38" r="6" stroke="#ffb224" stroke-opacity=".55">
-        <animate attributeName="r" values="3;9" dur="2.8s" repeatCount="indefinite"/>
-        <animate attributeName="stroke-opacity" values=".65;0" dur="2.8s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="90" cy="38" r="1.2" fill="#ffb224"/>
+      <circle cx="154" cy="98" r="4.5" fill="#0a0f13" stroke="#ff5c5c" stroke-opacity=".7"/>
+      <circle cx="154" cy="98" r="1.6" fill="#ff5c5c"/>
+      <text x="164" y="95" fill="#ff8b8b" font-family="monospace" font-size="7" letter-spacing=".6">B+</text>
+      <text x="164" y="104" fill="#7b8893" font-family="monospace" font-size="6" letter-spacing=".3">FAULT</text>
     </g>
-    <g>
-      <circle cx="151" cy="42" r="5" stroke="#ff5c5c" stroke-opacity=".16"/>
-      <circle cx="151" cy="42" r="5" stroke="#ff5c5c" stroke-opacity=".55">
-        <animate attributeName="r" values="2.5;7" dur="2.4s" begin=".7s" repeatCount="indefinite"/>
-        <animate attributeName="stroke-opacity" values=".6;0" dur="2.4s" begin=".7s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="151" cy="42" r="1" fill="#ff5c5c"/>
+    <g class="node">
+      <rect x="328" y="60" width="82" height="38" rx="8" fill="#0c1216" stroke="#3f4d57"/>
+      <circle cx="339" cy="79" r="3" fill="#4ade80"/>
+      <text x="349" y="76" fill="#aab3ba" font-family="monospace" font-size="7" letter-spacing=".6">CAN</text>
+      <text x="349" y="88" fill="#d8e0e6" font-family="monospace" font-size="9" letter-spacing=".3">500 kbps</text>
     </g>
+    <g stroke="#ffb224" stroke-opacity=".8" stroke-width="1.2">
+      <path d="M146 202h16M149 206h10M152 210h4"/>
+      <text x="166" y="205" fill="#aab3ba" font-size="7" font-family="monospace" letter-spacing=".6" stroke="none">GND</text>
+    </g>
+    <g class="node">
+      <rect x="328" y="202" width="82" height="38" rx="8" fill="#0c1216" stroke="#3f4d57"/>
+      <circle cx="339" cy="221" r="3" fill="#ffb224"/>
+      <text x="349" y="218" fill="#aab3ba" font-family="monospace" font-size="7" letter-spacing=".6">СТАРТЕР</text>
+      <text x="349" y="230" fill="#d8e0e6" font-family="monospace" font-size="9" letter-spacing=".3">OK</text>
+    </g>
+
+
+    <!-- central module -->
+    <rect x="183" y="98" width="154" height="104" rx="17" fill="url(#module)" stroke="#4a5965" stroke-width="1.2"/>
+    <rect x="183" y="98" width="154" height="104" rx="17" fill="url(#core)"/>
+    <rect x="211" y="118" width="98" height="64" rx="8" fill="#080d10" stroke="#ffb224" stroke-opacity=".55"/>
+    <path d="M229 136h62M229 145h62M229 154h38" stroke="#ffb224" stroke-opacity=".55" stroke-width="1"/>
+    <path d="M247 170 238 182h8l-3 11 12-14h-8l3-9Z" fill="#ffb224" opacity=".9"/>
+    <text x="260" y="194" text-anchor="middle" fill="#ffb224" font-family="monospace" font-size="7" letter-spacing="1.4">ECU / MASTER</text>
+
+    <!-- pins -->
+    <g stroke="#ffb224" stroke-width="1" opacity=".55">
+      <path d="M200 98v-6M216 98v-6M232 98v-6M248 98v-6M264 98v-6M280 98v-6M296 98v-6M312 98v-6"/>
+      <path d="M200 202v6M216 202v6M232 202v6M248 202v6M264 202v6M280 202v6M296 202v6M312 202v6"/>
+      <path d="M183 116h-6M183 132h-6M183 148h-6M183 164h-6M183 180h-6"/>
+      <path d="M337 116h6M337 132h6M337 148h6M337 164h6M337 180h6"/>
+    </g>
+
+    <!-- screws + LED -->
+    <g fill="#1c262e" stroke="#43515c" stroke-width=".8">
+      <circle cx="194" cy="109" r="2.4"/><circle cx="326" cy="109" r="2.4"/>
+      <circle cx="194" cy="191" r="2.4"/><circle cx="326" cy="191" r="2.4"/>
+    </g>
+    <circle cx="319" cy="104" r="2" fill="#4ade80"/>
+    <circle cx="319" cy="110" r="1.6" fill="#ffb224" opacity=".8"/>
+
+    <!-- components on traces -->
+    <g stroke="#ffb224" stroke-width="1.1" opacity=".8">
+      <path d="M345 120h3l2-4 3 8 3-8 3 8 2-4h3" />
+      <rect x="347" y="176" width="9" height="8" rx="1.5"/>
+      <path d="M349 180h5"/>
+      <path d="M169 188v8M165 192h8" />
+    </g>
+    <g fill="#7b8893" font-family="monospace" font-size="5.5" letter-spacing=".4">
+      <text x="343" y="113">R12</text>
+      <text x="345" y="192">F3</text>
+    </g>
+
+    <!-- pulses -->
+    <circle r="2.1" fill="#ffb224">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M335 120h15l16-16V98"/>
+    </circle>
+    <circle r="1.8" fill="#4ade80">
+      <animateMotion dur="2.6s" repeatCount="indefinite" path="M185 180h-15l-16 16v6"/>
+    </circle>
+    <circle cx="168" cy="117" r="4" fill="#ff5c5c" opacity=".25">
+      <animate attributeName="r" values="4;10;4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;0;.35" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- corner marks -->
+    <path d="M52 44h16M52 44v16M468 44h-16M468 44v16M52 256h16M52 256v-16M468 256h-16M468 256v-16" stroke="#ffb224" stroke-opacity=".18" stroke-width="1"/>
   </svg>
 
               <div class="float float--volt">

@@ -146,7 +146,7 @@ volt-demo/
 
 - Чистый HTML + CSS + JavaScript, без зависимостей и сборки.
 - Шрифты self-hosted, кириллица и латиница.
-- Иконки нарисованы вручную, без стоковых фото. Силуэт автомобиля — public domain (CC0, publicdomainvectors.org), доработан под стиль сайта.
+- Иконки и схема ЭБУ нарисованы вручную, без стоковых фото.
 - Анимации отключаются при `prefers-reduced-motion`.
 - Есть skip-link, focus-visible, aria-атрибуты, клавиатурная навигация по симптомам.
 - Телефон маскируется в `+7 (999) 000-00-00`, проверяется длина и первая цифра.
@@ -158,7 +158,6 @@ volt-demo/
 
 - Шрифт **Unbounded** — SIL Open Font License 1.1, Google Fonts.
 - Шрифт **Manrope** — SIL Open Font License 1.1, Google Fonts.
-- Силуэт автомобиля — public domain / CC0, publicdomainvectors.org (доработан).
 - Иллюстрации и код демо можно использовать и переделывать под проект.
 
 ---

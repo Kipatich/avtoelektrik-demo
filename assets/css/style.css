@@ -503,14 +503,11 @@ button { border: 0; background: none; cursor: pointer; }
   box-shadow: 0 0 18px 3px rgba(255, 178, 36, .22);
   animation: scan-x 6s ease-in-out infinite;
 }
-.car-svg {
+.circuit-svg {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 97%;
-  height: auto;
-  transform: translate(-50%, -50%);
-  filter: drop-shadow(0 20px 32px rgba(0, 0, 0, .5));
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }
 .float {
   position: absolute;
@@ -1525,7 +1522,7 @@ button { border: 0; background: none; cursor: pointer; }
   .hero__proof { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; max-width: 400px; }
   .hero__proof li:last-child { grid-column: 1 / -1; }
   .diag__stage { height: 300px; }
-  .car-svg { width: 100%; }
+
   .float--ok { display: none; }
   .hero__note { position: relative; right: auto; bottom: auto; margin: -10px 0 0 16px; width: max-content; max-width: calc(100% - 32px); }
   .section { padding: 68px 0; }
