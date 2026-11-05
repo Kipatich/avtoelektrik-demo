@@ -8,12 +8,12 @@ window.VOLT_CONFIG = {
   tagline: "выездной автоэлектрик",
 
   // Телефон: в отображении и в формате для ссылки tel:
-  phoneDisplay: "+7 (999) 123-45-67",
-  phoneRaw: "+79991234567",
+  phoneDisplay: "+7 (999) 000-00-00",
+  phoneRaw: "+79990000000",
 
   // Мессенджеры — только номер или username, без @
-  whatsapp: "79991234567",
-  telegram: "volt_auto",
+  whatsapp: "79990000000",
+  telegram: "volt_demo_example",
 
   city: "Москва и Московская область",
   cityShort: "Москве и области",
